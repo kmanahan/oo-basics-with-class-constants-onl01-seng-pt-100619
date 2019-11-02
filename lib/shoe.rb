@@ -5,13 +5,12 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    @brand = brand
-    if BRANDS = brand.include?
-      brand
-    else 
-      BRANDS << bran
-    end
+    def initialize(brand)
+  @brand = brand
+  if !BRANDS.include?(brand)
+    BRANDS << brand
   end
+end
 
   def cobble
     self.condition = "new"
