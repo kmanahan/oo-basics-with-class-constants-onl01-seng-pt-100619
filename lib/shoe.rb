@@ -10,6 +10,7 @@ class Shoe
       brand
     else 
       BRANDS << bran
+    end
   end
 
   def cobble
